@@ -7,7 +7,7 @@ const BACKEND_URL =
   window.location.hostname === "localhost" ||
   window.location.hostname === "127.0.0.1"
     ? "http://localhost:3001"
-    : "https://your-backend.onrender.com"; // ← replace before deploying
+    : "https://docutalk-backend.onrender.com";
 
 // ── State ──────────────────────────────────────────────────────────────────
 let currentFileName = null;
